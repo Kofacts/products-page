@@ -1,0 +1,181 @@
+/** Beginning of CSS For CodeClass Challenge **/
+#cover{
+	background: linear-gradient(rgba(76,76,76,1), rgba(255, 0, 0, 0.55)),url('./images/shopper.jpg'); 
+	color: white; 
+	border:none; 
+	height: 450px;
+	background-size: cover;
+}
+#navbar{
+	background: transparent;
+	border:none;
+	color: white;
+}
+button#menu{
+	background-color:transparent; 
+	color:white;
+}
+#navtitle{
+	color:white;
+}
+ button#see{
+              border:none;
+              outline: none;
+              width: 150px;
+              height:50px;
+              background:#8e2719;
+              border-radius: 5px;
+              
+              margin-top: 40px;
+            }
+  button#see span{
+  	font-size: 20px;
+  }     
+  button#span i{
+  	padding-left:4px;
+  }     
+
+            .cont {
+                width: 150px;
+                height: 1px;
+                background-color: white;
+                position:relative;
+            }
+            .circle {
+                display:inline-block;
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                background:white;
+                left:0;
+                right:0;
+                margin:0 auto;
+                border-radius: 100%;
+                top:-4px;
+            }
+#navheading{
+	font-family: 'Arial'; 
+	font-size: 40px;
+}   
+#horzline{
+	margin-top: 30px
+}         
+#cho {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0 0 .5em;
+}
+/*
+ * Caption component
+ */
+.caption {
+    
+    overflow: hidden;
+
+    /* Only the -webkit- prefix is required these days */
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
+}
+
+.caption__media {
+    display: block;
+   width: 370px;
+    height: 250px;
+}
+
+.caption__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    color: white;
+
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+.caption__overlay__content,.caption__overlay__content:hover{
+	padding-left: 10px;
+}
+
+.caption:hover .caption__overlay {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+.caption__overlay__title {
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+            transform: translateY( calc(-100% - 10px) );
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+    padding-bottom: 20px; 
+    font-size: 16px; 
+    padding-left: 10px;
+}
+
+.caption:hover .caption__overlay__title {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+#gly-remove{
+	padding-right: 9px;
+	cursor: pointer;
+}
+
+#row{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#row2{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+#footer{
+	background: black; 
+	color:white; 
+	position: absolute; 
+	width: 100%;
+}
+#cart{
+	border-radius: 100px; 
+	height: 50px; 
+	width: 50px; 
+	border:none; 
+	outline: none; 
+	background: #8e2719
+}
+#footer_container{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-size: 15px;
+}
+#donewith{
+    color: #8e2719;
+}
+.col-sm-4{
+    margin-bottom: 10px;
+}
